@@ -1,0 +1,22 @@
+/*Media queries for mobile, tablet, and desktop*/
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+/* Tablet */
+@media (max-width:1024px) and (min-width:768px) {
+  .hide-tablet {
+    display: none;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .hide-desktop {
+    display: none;
+  }
+}
